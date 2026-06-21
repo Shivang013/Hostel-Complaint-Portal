@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs
+*.log
+
+# Build
+dist
+build
+
+# Uploads (optional)
+backend/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# npm
+package-lock.json
