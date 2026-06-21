@@ -97,9 +97,4 @@ Visit `http://localhost:5173`. Register a new account to test the student flow, 
 | GET | `/api/users` | Admin | List all users |
 | PATCH | `/api/users/:id/role` | Admin | Change a user's role |
 
-## Resume Bullet Points (suggested)
 
-- Built a full-stack MERN application implementing **role-based access control** across three user types, enforced via custom Express middleware rather than simple authenticated/unauthenticated checks
-- Designed a **status-lifecycle state machine** for complaint tracking with a full audit trail of status changes
-- Implemented **MongoDB aggregation pipelines** to power a real-time admin dashboard with filterable, categorized complaint statistics
-- Integrated file uploads (Multer) and event-driven email notifications (Nodemailer) without external paid services
